@@ -42,7 +42,7 @@ python thermalgen_demo.py
 ```
 
 ## Datasets
-For Satellite-Aerial datasets, please download the dataset file from this link: [Dataset]() and directly put the folder in ``datasets_preprocess``.
+For Satellite-Aerial datasets, please download the dataset file from this link: [Dataset](https://huggingface.co/datasets/xjh19972/ThermalGen-Dataset) and directly put the folder in ``datasets_preprocess``.
 
 For other datasets, please follow the link put in ``datasets_preprocess`` folder to download the raw dataset accordingly and put them in ``datasets_raw`` folder. For preprocessing, please check ``preprocessing`` folder. For example, if you want to preprocess AVIID dataset, run
 

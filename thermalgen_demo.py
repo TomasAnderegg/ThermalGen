@@ -97,7 +97,8 @@ if __name__ == "__main__":
     # -----------------------------
     # Inputs
     # -----------------------------
-    RGB_image = Image.open("test_color.png")
+    # RGB_image = Image.open("pic_og.png")
+    RGB_image = Image.open("pic_og.png").convert("RGB")
     RGB = eval_transform(RGB_image).unsqueeze(0).to(device)
 
     # -----------------------------
